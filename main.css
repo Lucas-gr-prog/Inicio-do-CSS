@@ -1,0 +1,175 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header{
+    background-color: #222831;
+    padding: 16px 0;
+    color: #eddea4;
+}
+
+header .box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li a{
+    color: #eddea4;
+    text-decoration: none;
+}
+
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+.box {
+    width: 1366px;
+    margin: 0 auto;
+
+}
+
+.artigo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.artigo article img{
+    /* height: 180px; */
+    width: 100%;
+}
+
+.artigo article {
+    width: 30%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2,
+.artigo article{
+    margin-bottom: 16px;
+}
+
+.artigo article {
+    margin: 8px 8px;
+}
+
+.artigo article a {
+    /* background-color: rgb(44, 44, 116); */
+    color: #fffcfc;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.artigo article a:hover {
+    text-decoration: underline;
+}
+
+.artigo article p,
+.artigo article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.artigo article h3 {
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+#esportes {
+    background-color: rgba(157, 172, 255, 0.4);
+}
+
+#esportes .artigo article a{
+    background-color: #393E46;
+}
+
+#economia {
+    background-color: rgba(148, 181, 210, 0.4);
+}
+
+#economia .artigo article a{
+    background-color: #393E46;
+}
+
+#clima{
+    background-color: rgba(138, 191, 166, 0.4);
+}
+
+#clima .artigo article a{
+    background-color: #393E46;
+}
+
+#tecnologia{
+    background-color: rgba(129, 200, 121, 0.4);
+}
+
+#tecnologia .artigo article a{
+    background-color: #393E46;
+}
+
+
+
+
+/* 
+Exemplo de css:
+
+seletor
+{
+    atributo: valor;
+} 
+
+--Para selecionar um id, usamo #"id do local"
+    Só usamos ID quando é para uma só coisa.
+
+--Para selecionar uma classe, usamo ."classe das coisas"
+    Usamos classe quando é para mais de uma coisa.
+
+--"*" é utilizado para mudar a cor de tudo que está padrão
+
+--Quando queremos usar algo que está dentro de uma div ou container fazemos assim:
+    (aqui eu usei as imagens que estão na tag "article" que está dentro da div "artigo")
+
+    .artigo article img
+    {
+    height: 180px;
+    }
+
+--Caso eu queria mecher em algo que seja apenas filho direto de outra box eu uso: 
+
+
+body > header{
+    background-color: gray;
+    padding: 16px 0;
+    color: antiquewhite;
+}
+
+
+
+--Usamos o "display: "valor"; " para determinar o modo que vai ser apresentado nos dispositivos
+
+--"flex-wrap: "valor"; " é usado pro computador saber como organizar caso seja colocado um elemento a mais
+
+--"justify-content: "valor"; " serve pro computador distribuir o espaço que sobrou no local definido pelo valor
+
+--"box-sizing: "valor"; " usamos quando a nossa prioridade é centralizar um elemento com base no valor colocado
+
+-- margin e padding são respectivamente margens externas e internas
+
+-- Existe as variações do magin e padding para margin-bottom , top , left , right
+
+*/
